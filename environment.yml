@@ -1,0 +1,11 @@
+name: dashboard
+channels:
+  - pyviz
+  - defaults
+dependencies:
+  - python=3
+  - scipy
+  - numpy
+  - pandas
+  - panel
+  - hvplot
