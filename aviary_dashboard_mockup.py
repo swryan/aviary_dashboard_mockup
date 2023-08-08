@@ -117,4 +117,5 @@ template = pn.template.FastListTemplate(
 )
 
 if __name__ == "__main__":
-    pn.serve(template, static_dirs={'assets': './assets'})
+    pn.serve(template, static_dirs={'assets': './assets'}, port=8086, show=False)
+
